@@ -1,0 +1,46 @@
+:root {
+    --header: #de7853;
+    --nav: #53d7de;
+    --main: #ffd65c;
+    --footer: #9d53de;
+}
+
+body {
+    background-color: var(--main);
+}
+
+header {
+    background-color: var(--header);
+}
+
+.nav {
+    background-color: var(--nav);
+}
+
+.nav .nav-item .nav-link {
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.display-1 {
+    padding:.5rem 0 0 1rem;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    background-color: var(--footer);
+    width:100%;
+
+}
+
+footer p{
+    text-align: center;
+    padding-top:.5rem;
+    color:white;
+}
+
+main {
+    padding-bottom: 4rem;
+}
